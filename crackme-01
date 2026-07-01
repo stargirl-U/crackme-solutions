@@ -1,0 +1,33 @@
+# Crackme 01 — [Nama Crackme]
+
+**Sumber:** [link ke crackmes.one](#)
+**Level:** Easy
+**Tools:** Ghidra, x64dbg, DIE
+**Status:** WIP / Selesai
+
+## 🎯 Tujuan Crackme
+Jelaskan apa yang diminta crackme ini (mis. menemukan serial number yang valid, bypass validasi password, dll).
+
+## 🔎 Triage Awal
+- Hasil DIE: tipe file, compiler, ada packer/tidak
+- Strings mencurigakan yang ditemukan di tahap awal
+- Hipotesis awal sebelum masuk lebih dalam
+
+## 🧠 Proses Analisis
+Jelaskan langkah demi langkah proses berpikir, bukan hanya hasil akhir:
+
+1. Langkah pertama: apa yang diperiksa di Ghidra (mis. fungsi `main`, cross-reference string, dll) dan kenapa.
+2. Asumsi yang dibuat, apakah terbukti benar atau salah.
+3. Titik buntu yang dialami dan bagaimana mengatasinya (mis. set breakpoint di x64dbg, baca ulang assembly).
+4. Insight kunci yang akhirnya membuka jalan ke solusi.
+
+### 📸 Screenshot Dianotasi
+![deskripsi screenshot](screenshots/01-anotasi.png)
+
+*Jelaskan apa yang ditunjukkan panah/highlight pada screenshot di atas — bagian kode/instruksi mana yang relevan dan kenapa.*
+
+## ✅ Solusi Akhir
+Jelaskan solusi final dan kenapa itu bekerja secara teknis.
+
+## 💡 Refleksi
+Apa yang dipelajari dari crackme ini? Teknik apa yang baru dikuasai?
